@@ -1,6 +1,5 @@
 const Module = require('module')
 const path = require('path')
-// module.exports = require('fake-thing/get-globals')
 module.exports = requireFromString('fake-thing.js', `
   module.exports = function isObject(obj) {
     return obj.constructor === Object
