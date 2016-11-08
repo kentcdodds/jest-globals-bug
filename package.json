@@ -9,10 +9,13 @@
   "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
   "license": "MIT",
   "dependencies": {
-    "jest-cli": "^16.0.2"
+    "jest-cli": "^17.0.0"
   },
   "scripts": {
     "jest": "jest",
-    "node": "node test.js"
+    "node": "node node.js"
+  },
+  "jest": {
+    "testEnvironment": "node"
   }
 }
